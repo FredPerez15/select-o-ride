@@ -1,0 +1,22 @@
+html {
+    background-color: blanchedalmond;
+}
+
+.logo {
+    background-color: rosybrown;
+    padding: 0.5em;
+    height: 10vh;
+    text-align: center;
+    font-size: 1rem;
+    font-family: monospace;
+    color: orange;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    font-style: oblique;
+    font-family: monospace;
+    color: firebrick;
+}
+
