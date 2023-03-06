@@ -1,8 +1,14 @@
 html, body {
+<<<<<<< HEAD
     background-color: powderblue;
     height: 100%;
     overflow-y: auto;
     background-image: url(https://qmotor.com/File/upload/images/car-logos%282%29.jpg);
+=======
+    background-color: blanchedalmond;
+    height: 100%;
+    overflow-y: auto;
+>>>>>>> bd3718873056a9dde7fea3a06c6aa92bb0495641
 }
 
 .logo {
@@ -28,6 +34,7 @@ p {
 
 .quiz-content {
     text-align: center;
+<<<<<<< HEAD
     color: hotpink;
     height: 40vh;
     background-color: white;
@@ -40,10 +47,24 @@ p {
     height: 80%;
     border-radius: 25%;
     color: hotpink;
+=======
+    color: orange;
+    padding-bottom: 3%;
+    background-color: beige;
+
+}
+
+
+.choices {
+    text-align: initial;
+    background-color: grey;
+    padding-bottom: 25%
+>>>>>>> bd3718873056a9dde7fea3a06c6aa92bb0495641
 }
 
 .results {
     text-align: center;
+<<<<<<< HEAD
     background-color: white;
     height: 30vh;
     font-family: monospace;
@@ -54,3 +75,9 @@ p {
     padding-bottom: 10%;
     background-color: white;
 }
+=======
+    background-color: beige;
+    padding-bottom: 15%;
+    min-height: 50%;
+}
+>>>>>>> bd3718873056a9dde7fea3a06c6aa92bb0495641
