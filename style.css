@@ -1,15 +1,21 @@
-html {
-    background-color: blanchedalmond;
+html, body {
+    background-color: powderblue;
+    height: 100%;
+    overflow-y: auto;
+    background-image: url(https://qmotor.com/File/upload/images/car-logos%282%29.jpg);
 }
 
 .logo {
-    background-color: rosybrown;
+    background-color: lightcoral;
+    border-radius: 20%;
     padding: 0.5em;
     height: 10vh;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
     font-family: monospace;
-    color: orange;
+    color: white;
+    background-image: url(https://www.freepnglogos.com/uploads/cleveland-auto-show-car-logo-png-25.png);
 }
 
 p {
@@ -17,6 +23,34 @@ p {
     font-size: 1rem;
     font-style: oblique;
     font-family: monospace;
-    color: firebrick;
+    color: blue;
 }
 
+.quiz-content {
+    text-align: center;
+    color: hotpink;
+    height: 40vh;
+    background-color: white;
+    font-family: monospace;
+}
+
+.choices {
+    text-align: initial;
+    background-color: grey;
+    height: 80%;
+    border-radius: 25%;
+    color: hotpink;
+}
+
+.results {
+    text-align: center;
+    background-color: white;
+    height: 30vh;
+    font-family: monospace;
+}
+
+.rest {
+    height: 25%;
+    padding-bottom: 10%;
+    background-color: white;
+}
