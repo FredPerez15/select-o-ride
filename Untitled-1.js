@@ -1,7 +1,7 @@
-//  1. What is your age group? 
-//            Option A : 18-27                
-//            Option B : 28-35
-//            Option C:  35+
+//  1. How many people do you normally drive with?
+//           Option A : 1 (by yourself)
+//           Option B : 2 (you + partner + dog)
+//           Option C : 3 (family)
 
 
 //  2.  Which of these best represent your terrain?
@@ -13,15 +13,15 @@
 
 //  3.  Do you prefer electric or gas or hyrbid? 
 //           Option A : Electric 
-//           Option B :  Gas
-//           Option C:   Hybrid 
+//           Option B : Gas
+//           Option C:  Hybrid 
 
 
 
 //  4. Which one of these fits your stlye 
 //          Option A: Lowrider 
 //          Option B: Lifted Truck               
-//          Option C: Modified stationwagon
+//          Option C: Modified stationwagon  
 
 
 //  5.   Which of these best represents where you park?
@@ -32,7 +32,7 @@
 
 
 
-
+// access through .forEach??? 
 
 
 
