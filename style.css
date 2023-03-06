@@ -1,5 +1,7 @@
-html {
+html, body {
     background-color: blanchedalmond;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .logo {
@@ -20,3 +22,24 @@ p {
     color: firebrick;
 }
 
+.quiz-content {
+    text-align: center;
+    color: orange;
+    padding-bottom: 3%;
+    background-color: beige;
+
+}
+
+
+.choices {
+    text-align: initial;
+    background-color: grey;
+    padding-bottom: 25%
+}
+
+.results {
+    text-align: center;
+    background-color: beige;
+    padding-bottom: 15%;
+    min-height: 50%;
+}
