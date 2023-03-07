@@ -5,6 +5,11 @@ html, body {
     background-image: url(https://qmotor.com/File/upload/images/car-logos%282%29.jpg);
 }
 
+img {
+    height: 150px;
+    width: 150px;
+}
+
 .logo {
     background-color: lightcoral;
     border-radius: 20%;

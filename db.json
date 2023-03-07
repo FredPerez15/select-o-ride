@@ -2,8 +2,8 @@
     "questions":[
         {
             "question1": "How many people do you normally drive with?",
-            "image1":"https://st2.depositphotos.com/2413227/9749/v/600/depositphotos_97493558-stock-video-girl-driving-the-car.jpg",
-            "image2":"https://cdn.xl.thumbs.canstockphoto.com/canstock18450879.jpg",
+            "image1": "https://st2.depositphotos.com/2413227/9749/v/600/depositphotos_97493558-stock-video-girl-driving-the-car.jpg",
+            "image2": "https://cdn.xl.thumbs.canstockphoto.com/canstock18450879.jpg",
             "image3": "https://media.istockphoto.com/id/1344954298/photo/family-with-dog-in-the-car.jpg?s=612x612&w=0&k=20&c=anIzsubkI7wzUiSHC_gUIVyJuSX2KXJ1-Lu5c25CCzA=",
             "id":  1
             
@@ -15,7 +15,6 @@
             "image2":"https://images.adsttc.com/media/images/6041/246f/f91c/81cf/e700/0078/newsletter/Nick_Fewings_Unsplash.jpg?1614881894",
             "image3": "https://www.roughton.com/cache/cropped/images/Service%20page%20images/Mountainous_terrain_2_rfs-300x300.jpg",
             "id":  2
-            
         },
         
         {
