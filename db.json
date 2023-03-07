@@ -1,6 +1,5 @@
 {
     "questions":[
-                
         {
             "question1": "How many people do you normally drive with?",
             "image1":"https://st2.depositphotos.com/2413227/9749/v/600/depositphotos_97493558-stock-video-girl-driving-the-car.jpg",
@@ -18,39 +17,63 @@
             "id":  2
             
         },
-    {
+        
+        {
         "question3": "Do you prefer gas or electric, or hybrid?",
         "image1":"https://cdn.motor1.com/images/mgl/G4z31/s3/tesla-roadster.jpg",
         "image2":"https://media.ed.edmunds-media.com/ford/mustang/2022/oem/2022_ford_mustang_coupe_ecoboost-premium_fq_oem_1_1600.jpg",
         "image3": "https://hips.hearstapps.com/hmg-prod/images/2019-toyota-prius-limited-1545163015.jpg?crop=0.819xw:1.00xh;0.104xw,0&resize=640:*",
         "id":  3
-        
-    },
+        },
 
         {
         "question4": "Which one of these fits your stlye?",
         "image1":"https://www.motortrend.com/uploads/2023/01/000-lowrider-pinstriping-mooneyes-show-yokohama-2022-scaled.jpg?fit=around%7C788:443.25",
         "image2":"https://pattersontruckstop.com/wp-content/uploads/sites/60/bb-plugin/cache/used-lifted-truck-gmc-1-landscape.jpeg",
         "image3": "https://low-offset.com/wp-content/uploads/2022/08/fast-wagon.jpg",
-        "id":  4
-        
-    },
+        "id":  4       
+        },
 
-    {
+        {
         "question5": "Which one of these best represents where you park?",
         "image1":"https://ggwash.org/images/made/images/posts/_resized/50306461906_c0e6b2760f_k_800_533_90.jpg",
         "image2":"https://www.huntingtonplacedetroit.com/assets/img/P9391-60b6a36701.jpg",
         "image3": "https://grist.org/wp-content/uploads/2013/06/apartment-building-parking-lot-courtyard-2.jpg",
-        "id":  5
-        
-    }
+        "id":  5  
+        }
+    ],
+    "results": [
+        {
+            "result1": "We Recommend a hybrid Toyota Sienna (or similar)",
+            "image": "https://images.cars.com/cldstatic/wp-content/uploads/toyota-sienna-xse-2021-04-angle--exterior--front--silver.jpg",
+            "id": 1 
+        },
 
+        {
+            "result2": "We Recommend a Nissan 370z coupe (or similar)",
+            "image": "https://images.squarespace-cdn.com/content/v1/5d4a129b73f13100012b7349/1614626157468-01SKCZXYJZEL3CRI65LJ/7.jpg?format=2500w",
+            "id": 2
+        },
 
+        {
+            "result3": "We Recommend a Toyota 4Runner SUV (or similar)",
+            "image": "https://di-uploads-pod16.dealerinspire.com/kendalltoyotaofbend/uploads/2019/03/custom-4runner.jpg",
+            "id": 3
+        },
 
+        {
+            "result4": "We Recommend a V8 E63s AMG Mercedez-Benz (or similar)",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/2023-mercedes-amg-e63-s-4matic-103-1671563913.jpg?crop=0.466xw:0.350xh;0.311xw,0.465xh&resize=1200:*",
+            "id": 4
+        },
 
-
-
+        {
+            "result5": "We Recommend a BMW 4 Series Convertible (or similar) ",
+            "image": "https://www.topgear.com/sites/default/files/2021/06/P90414424_highRes_bmw-m440i-xdrive-con.jpg",
+            "id":5
+        }
 
     ]
 }
+                
 
