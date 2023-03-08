@@ -1,7 +1,7 @@
 {
     "questions":[
         {
-            "question1": "How many people do you normally drive with?",
+            "question": "How many people do you normally drive with?",
             "image1": "https://st2.depositphotos.com/2413227/9749/v/600/depositphotos_97493558-stock-video-girl-driving-the-car.jpg",
             "image2": "https://cdn.xl.thumbs.canstockphoto.com/canstock18450879.jpg",
             "image3": "https://media.istockphoto.com/id/1344954298/photo/family-with-dog-in-the-car.jpg?s=612x612&w=0&k=20&c=anIzsubkI7wzUiSHC_gUIVyJuSX2KXJ1-Lu5c25CCzA=",
@@ -10,7 +10,7 @@
         },
     
         {
-            "question2": "Which one of these best represents the terrain you drive on?",
+            "question": "Which one of these best represents the terrain you drive on?",
             "image1":"https://thumbs.dreamstime.com/z/washington-dc-city-scene-intersection-august-image-street-highrise-buildings-vehicles-street-parking-august-usa-77837271.jpg",
             "image2":"https://images.adsttc.com/media/images/6041/246f/f91c/81cf/e700/0078/newsletter/Nick_Fewings_Unsplash.jpg?1614881894",
             "image3": "https://www.roughton.com/cache/cropped/images/Service%20page%20images/Mountainous_terrain_2_rfs-300x300.jpg",
@@ -18,7 +18,7 @@
         },
         
         {
-        "question3": "Do you prefer gas or electric, or hybrid?",
+        "question": "Do you prefer gas or electric, or hybrid?",
         "image1":"https://cdn.motor1.com/images/mgl/G4z31/s3/tesla-roadster.jpg",
         "image2":"https://media.ed.edmunds-media.com/ford/mustang/2022/oem/2022_ford_mustang_coupe_ecoboost-premium_fq_oem_1_1600.jpg",
         "image3": "https://hips.hearstapps.com/hmg-prod/images/2019-toyota-prius-limited-1545163015.jpg?crop=0.819xw:1.00xh;0.104xw,0&resize=640:*",
@@ -26,7 +26,7 @@
         },
 
         {
-        "question4": "Which one of these fits your stlye?",
+        "question": "Which one of these fits your stlye?",
         "image1":"https://www.motortrend.com/uploads/2023/01/000-lowrider-pinstriping-mooneyes-show-yokohama-2022-scaled.jpg?fit=around%7C788:443.25",
         "image2":"https://pattersontruckstop.com/wp-content/uploads/sites/60/bb-plugin/cache/used-lifted-truck-gmc-1-landscape.jpeg",
         "image3": "https://low-offset.com/wp-content/uploads/2022/08/fast-wagon.jpg",
@@ -34,7 +34,7 @@
         },
 
         {
-        "question5": "Which one of these best represents where you park?",
+        "question": "Which one of these best represents where you park?",
         "image1":"https://ggwash.org/images/made/images/posts/_resized/50306461906_c0e6b2760f_k_800_533_90.jpg",
         "image2":"https://www.huntingtonplacedetroit.com/assets/img/P9391-60b6a36701.jpg",
         "image3": "https://grist.org/wp-content/uploads/2013/06/apartment-building-parking-lot-courtyard-2.jpg",
