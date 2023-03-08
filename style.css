@@ -6,8 +6,8 @@ html, body {
 }
 
 img {
-    height: 150px;
-    width: 150px;
+    height: 170px;
+    width: 170px;
 }
 
 .logo {
@@ -29,22 +29,29 @@ p {
     font-style: oblique;
     font-family: monospace;
     color: blue;
+    background: white;
 }
 
 .quiz-content {
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
     color: hotpink;
     height: 40vh;
     background-color: white;
     font-family: monospace;
+    background: none;
 }
 
 .choices {
-    text-align: initial;
-    background-color: grey;
     height: 80%;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 25%;
     color: hotpink;
+    border: 2px solid white;
 }
 
 .results {

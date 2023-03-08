@@ -41,5 +41,4 @@ const moveAssessmentAlong = (e) => {
 }
 
 
-
 document.addEventListener("DOMContentLoaded", pullInfo)
