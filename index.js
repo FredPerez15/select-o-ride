@@ -39,7 +39,7 @@ const moveAssessmentAlong = (e) => {
     currentIndex += 1
     renderAssesmentPics(questionsArray[currentIndex])
 }
-
+let a = b
 
 
 document.addEventListener("DOMContentLoaded", pullInfo)
