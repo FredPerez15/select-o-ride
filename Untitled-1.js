@@ -31,23 +31,9 @@
 
 
 
+// if a picture with a value is clicked, then the image assigned to that value is shown at the end of the quiz. If the entire quiz is completed
+// and there is picture with a value clicked, a default image is shown. 
 
-// access through .forEach??? 
-
-
-
-
-// FEATURES :  mouseover to highlight    choices' outline box
-//          :  mouseover to highlight    prev, next, reset buttons 
-
-//          : image click events    
-//          : prev , next reset buttons 
-//          : choice form 
-//          : refresh button on page logo
-
-
-//   start with a list of objects then 
-//   based on choices , objects are removed from the final output 
-//   when one object remains, Remove A , C elements. Remove buttons, change b innerText to final car object .name change b img src to final car obj .img
-//   display final message ex : "This car would be perfect for you!" display confetti gif 
-
+// if (picture with value clicked)                         at the end of the quiz show reccomendation message 
+// then (show result with same value)           ----> 
+// else (show default image)
