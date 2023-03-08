@@ -1,5 +1,7 @@
 let questionsArray;
 let currentIndex = 0
+let resultsArray;
+
 
 const pullInfo = () => {
     fetch('http://localhost:3000/questions')
@@ -11,11 +13,9 @@ const pullInfo = () => {
 }
 
 const renderAssesmentPics = (assesmentImages) => {
-    // console.log(assesmentImages)
+    
     const choicesDiv = document.querySelector('.choices')
-
     const assessmentElement = document.querySelector('#assessment')
-    // console.log(assessmentElement)
     
     const imgElement1 = document.createElement('img')
     const imgElement2 = document.createElement('img')
@@ -32,12 +32,14 @@ const renderAssesmentPics = (assesmentImages) => {
     assessmentElement.innerText = assesmentImages.question
 
     choicesDiv.innerHTML = ""
-    choicesDiv.append(imgElement1,imgElement2,imgElement3)
+    choicesDiv.append(imgElement1,imgElement2,imgElement3) 
 }
 
 const moveAssessmentAlong = (e) => {
     currentIndex += 1
     renderAssesmentPics(questionsArray[currentIndex])
 }
+
+
 
 document.addEventListener("DOMContentLoaded", pullInfo)

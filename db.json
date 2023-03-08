@@ -43,35 +43,40 @@
     ],
     "results": [
         {
-            "result1": "We Recommend a hybrid Toyota Sienna (or similar)",
+            "result": "We Recommend a hybrid Toyota Sienna (or similar)",
             "image": "https://images.cars.com/cldstatic/wp-content/uploads/toyota-sienna-xse-2021-04-angle--exterior--front--silver.jpg",
             "id": 1 
         },
 
         {
-            "result2": "We Recommend a Nissan 370z coupe (or similar)",
+            "result": "We Recommend a Nissan 370z coupe (or similar)",
             "image": "https://images.squarespace-cdn.com/content/v1/5d4a129b73f13100012b7349/1614626157468-01SKCZXYJZEL3CRI65LJ/7.jpg?format=2500w",
             "id": 2
         },
 
         {
-            "result3": "We Recommend a Toyota 4Runner SUV (or similar)",
+            "result": "We Recommend a Toyota 4Runner SUV (or similar)",
             "image": "https://di-uploads-pod16.dealerinspire.com/kendalltoyotaofbend/uploads/2019/03/custom-4runner.jpg",
             "id": 3
         },
 
         {
-            "result4": "We Recommend a V8 E63s AMG Mercedez-Benz (or similar)",
+            "result": "We Recommend a V8 E63s AMG Mercedez-Benz (or similar)",
             "image": "https://hips.hearstapps.com/hmg-prod/images/2023-mercedes-amg-e63-s-4matic-103-1671563913.jpg?crop=0.466xw:0.350xh;0.311xw,0.465xh&resize=1200:*",
             "id": 4
         },
 
         {
-            "result5": "We Recommend a BMW 4 Series Convertible (or similar) ",
+            "result": "We Recommend a BMW 4 Series Convertible (or similar) ",
             "image": "https://www.topgear.com/sites/default/files/2021/06/P90414424_highRes_bmw-m440i-xdrive-con.jpg",
-            "id":5
-        }
+            "id": 5
+        },
 
+        {
+            "result": "We Recommend a spacious Toyota Avalon (or similar)",
+            "image": "https://cdn.jdpower.com/JDPA_2020-Toyota-Avalon-Hybrid-XLE-Harbor-Gray-Front-Quarter-Small.jpg",
+            "id": 6
+        }
     ]
 }
                 
