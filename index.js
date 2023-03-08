@@ -13,6 +13,7 @@ const pullInfo = () => {
 }
 
 const renderAssesmentPics = (assesmentImages) => {
+    console.log(assesmentImages)
     
     const choicesDiv = document.querySelector('.choices')
     const assessmentElement = document.querySelector('#assessment')
@@ -34,11 +35,47 @@ const renderAssesmentPics = (assesmentImages) => {
     choicesDiv.innerHTML = ""
     choicesDiv.append(imgElement1,imgElement2,imgElement3) 
 }
+const pullResults = () => {
+    fetch('http://localhost:3000/results')
+      .then((response) => response.json())
+      .then((data) => {
+        resultsArray = data
+        resultsArray.forEach((result) => {
+            renderResultsPics(result)
+            
+        });
+      });
+  }
+  
+  const renderResultsPics = (result) => {
+    const picDiv = document.querySelector('.results')
+      const resultingPics = document.createElement('img');
+      resultingPics.src = result.image;
+     picDiv.append(resultingPics)
+  }
+ 
+  pullResults();   
 
 const moveAssessmentAlong = (e) => {
     currentIndex += 1
     renderAssesmentPics(questionsArray[currentIndex])
+    // if currentIndex === questionsArray.length - 1
+    // render result pics 
+    switch(e.target.src) {
+        case "https://st2.depositphotos.com/2413227/9749/v/600/depositphotos_97493558-stock-video-girl-driving-the-car.jpg":
+        const choice1  =  resultsArray.filter((result) =>  result.id != 1)
+        const picDiv = document.querySelector('.results')
+            picDiv.innerHTML= ""
+            choice1.forEach((result) => {
+                renderResultsPics(result)
+                
+            });
+        break; 
+    }
+
+
+
 }
-let a = b
+
 
 document.addEventListener("DOMContentLoaded", pullInfo)

@@ -37,3 +37,12 @@
 // if (picture with value clicked)                         at the end of the quiz show reccomendation message 
 // then (show result with same value)           ----> 
 // else (show default image)
+
+
+// first image family      =  minivan
+// second image mountains  = pickup truck
+// third image default      = toyota
+// fourth image  stationwagon   = bmw
+// fifth image  garagae     =   benz
+
+// when the index is 
