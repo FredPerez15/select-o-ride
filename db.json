@@ -19,15 +19,15 @@
         
         {
         "question": "Do you prefer gas or electric, or hybrid?",
-        "image1":"https://cdn.motor1.com/images/mgl/G4z31/s3/tesla-roadster.jpg",
-        "image2":"https://media.ed.edmunds-media.com/ford/mustang/2022/oem/2022_ford_mustang_coupe_ecoboost-premium_fq_oem_1_1600.jpg",
+        "image1": "https://www.cometsigns.com/assets/images/content/img_gas_2.jpg",
+        "image2": "https://www.fairfaxcounty.gov/landdevelopment/sites/landdevelopment/files/Assets/images/electric-vehicle-charging-stations.jpg",
         "image3": "https://hips.hearstapps.com/hmg-prod/images/2019-toyota-prius-limited-1545163015.jpg?crop=0.819xw:1.00xh;0.104xw,0&resize=640:*",
         "id":  3
         },
 
         {
         "question": "Which one of these fits your stlye?",
-        "image1":"https://www.motortrend.com/uploads/2023/01/000-lowrider-pinstriping-mooneyes-show-yokohama-2022-scaled.jpg?fit=around%7C788:443.25",
+        "image1": "https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym13JTIwY2FyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         "image2":"https://pattersontruckstop.com/wp-content/uploads/sites/60/bb-plugin/cache/used-lifted-truck-gmc-1-landscape.jpeg",
         "image3": "https://low-offset.com/wp-content/uploads/2022/08/fast-wagon.jpg",
         "id":  4       
@@ -35,9 +35,9 @@
 
         {
         "question": "Which one of these best represents where you park?",
-        "image1":"https://ggwash.org/images/made/images/posts/_resized/50306461906_c0e6b2760f_k_800_533_90.jpg",
+        "image1": "https://static.mansionglobal.com/production/media/article-images/3300ace0a0cf533361e487a4d1fe578c/large_1-Photo-by-Charles-Smith-Design-by-Matt-Fajkus-Architecture.jpg",
         "image2":"https://www.huntingtonplacedetroit.com/assets/img/P9391-60b6a36701.jpg",
-        "image3": "https://grist.org/wp-content/uploads/2013/06/apartment-building-parking-lot-courtyard-2.jpg",
+        "image3": "https://media.timeout.com/images/105243662/750/562/image.jpg",
         "id":  5  
         }
     ],
