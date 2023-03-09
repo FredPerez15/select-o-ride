@@ -40,5 +40,21 @@ const moveAssessmentAlong = (e) => {
     renderAssesmentPics(questionsArray[currentIndex])
 }
 
+const pullResults = () => {
+    fetch('http://localhost:3000/results')
+      .then((response) => response.json())
+      .then((data) => {
+        data.forEach((result) => {
+            renderResultsPics(result)
+        });
+    });
+  }
+  
+const renderResultsPics = (result) => {
+    console.log(result)
+}
+    
+    
+pullResults()
 
 document.addEventListener("DOMContentLoaded", pullInfo)
