@@ -77,6 +77,13 @@
             "image": "https://cdn.jdpower.com/JDPA_2020-Toyota-Avalon-Hybrid-XLE-Harbor-Gray-Front-Quarter-Small.jpg",
             "id": 6
         }
+    ],
+        "default": [
+            {
+                "result": "We Recommend a hybrid Toyota Sienna (or similar)",
+                "image": "https://www.gannett-cdn.com/presto/2022/10/14/PDTF/984ab931-057f-4b92-9e73-1cd373f6d699-IMG_3252.JPEG",
+                "id": 1 
+            }
     ]
 }
                 
