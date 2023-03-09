@@ -11,20 +11,6 @@ const pullInfo = () => {
     })
 }
 
-// const pullDefault = () => {
-//     fetch('http://localhost:3000/default')
-//     .then((response) => response.json())
-//     .then((data) => {
-//         data.forEach((defaul) => {
-//             renderDefault(defaul)})})}
-        
-//         const renderDefault = (defaul) => {
-//         const defaultImage = document.createElement("img")
-//         defaultImage.src = defaul.image
-//         picDiv.append(defaultImage)}
-
-
-
 const renderAssesmentPics = (assesmentImages) => {
     
     const choicesDiv = document.querySelector('.choices')
@@ -145,7 +131,6 @@ const moveAssessmentAlong = (e) => {
                 renderResultsPics(result)
             });
         break;
-
         case "https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym13JTIwY2FyfGVufDB8fDB8fA%3D%3D&w=1000&q=80":
             choice4  =  choice3.filter((result) => result.id != 2 && result.id != 5)
             picDiv.innerHTML= ""
@@ -153,7 +138,6 @@ const moveAssessmentAlong = (e) => {
                 renderResultsPics(result)
             });
         break;
-        
         case "https://pattersontruckstop.com/wp-content/uploads/sites/60/bb-plugin/cache/used-lifted-truck-gmc-1-landscape.jpeg":
             choice4  =  choice3.filter((result) => result.id != 1 && result.id != 2 && result.id != 5)
             picDiv.innerHTML= ""
@@ -161,7 +145,6 @@ const moveAssessmentAlong = (e) => {
                 renderResultsPics(result)
             });
         break; 
-
         case "https://low-offset.com/wp-content/uploads/2022/08/fast-wagon.jpg":
             choice4  =  choice3.filter((result) => result.id != 1 && result.id != 3 && result.id != 6)
             picDiv.innerHTML= ""
@@ -169,79 +152,31 @@ const moveAssessmentAlong = (e) => {
                 renderResultsPics(result)
             });
         break; 
-
-
         case "https://static.mansionglobal.com/production/media/article-images/3300ace0a0cf533361e487a4d1fe578c/large_1-Photo-by-Charles-Smith-Design-by-Matt-Fajkus-Architecture.jpg":
-            choice5  =  choice4.filter((result) => result.id != 1 && result.id != 3)
-            picDiv.innerHTML= ""
-            choice5.forEach((result) => {
-                renderResultsPics(result)
-            });
-
-            // if (choice5.length = 0) {
-            //     renderDefault(defaul);  
-            // } else {};
-
-
-
-
-        break; 
-
-        case "https://www.huntingtonplacedetroit.com/assets/img/P9391-60b6a36701.jpg":
-            choice5  =  choice4.filter((result) => result.id != 2)
-            picDiv.innerHTML= ""
-            choice5.forEach((result) => {
-                renderResultsPics(result)
-
-            //     // if (choice5.length = 0) { () => {
-            //     //     defaultImage(image)
-            //     //     const defaultImage = () => {
-            //     //         resultingPics.src = defaul.image
-            //     //     }
-            //     // }
-            
-            //     }
-                
-            });
-        break; 
-
-        case "https://media.timeout.com/images/105243662/750/562/image.jpg":
             choice5  =  choice4.filter((result) => result.id != 3)
             picDiv.innerHTML= ""
             choice5.forEach((result) => {
                 renderResultsPics(result)
-
-                // if (choice5.length = 0) { () => {
-                //     defaultImage(image)
-                //     const defaultImage = () => {
-                //         resultingPics.src = defaul.image
-                //     }
-                // }
-            
-                // }
             });
         break; 
-            // default: if (choice5.length = 0) {
-            //     picDiv.append
-
-            // } 
-  
+        case "https://www.huntingtonplacedetroit.com/assets/img/P9391-60b6a36701.jpg":
+            choice5  =  choice4.filter((result) => result.id != 5)
+            picDiv.innerHTML= ""
+            choice5.forEach((result) => {
+                renderResultsPics(result)   
+            });
+        break; 
+        case "https://media.timeout.com/images/105243662/750/562/image.jpg":
+            choice5  =  choice4.filter((result) => result.id != 1 && result.id != 3 && result.id != 6)
+            picDiv.innerHTML= ""
+            choice5.forEach((result) => {
+                renderResultsPics(result)
+            });
+        break; 
+        default: "https://www.gannett-cdn.com/presto/2022/10/14/PDTF/984ab931-057f-4b92-9e73-1cd373f6d699-IMG_3252.JPEG"
         
-
-
-
-
-
-// 1-1-1-1 ---> default   
-// 3-3-3-3 ----> default
-
     }
-      
-
-
-
+    //currentIndex === questionsArray.length - 1  
 }
 
-
 document.addEventListener("DOMContentLoaded", pullInfo)
-// document.addEventListener("DOMContentLoaded", pullDefault)
