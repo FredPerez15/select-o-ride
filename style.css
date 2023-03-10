@@ -53,8 +53,9 @@ p {
 .results {
     text-align: center;
     background-color: white;
-    height: 100vh;
+    height: 60vh;
     font-family: monospace;
+    padding-top: 12%;
 }
 
 .rest {
