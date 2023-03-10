@@ -1,13 +1,8 @@
-html, body {
-    background-color: powderblue;
-    height: 100%;
-    overflow-y: auto;
-    background-image: url(https://qmotor.com/File/upload/images/car-logos%282%29.jpg);
-}
-
 img {
-    height: 170px;
-    width: 170px;
+    height: 274px;
+    width: 274px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
 
 .logo {
@@ -16,7 +11,7 @@ img {
     padding: 0.5em;
     height: 10vh;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.75rem;
     text-transform: uppercase;
     font-family: monospace;
     color: white;
@@ -25,10 +20,10 @@ img {
 
 p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.77rem;
     font-style: oblique;
     font-family: monospace;
-    color: blue;
+    color: rgb(119, 4, 0);
     background: white;
 }
 
@@ -36,11 +31,12 @@ p {
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
-    color: hotpink;
+    color: rgb(52, 2, 94);
     height: 40vh;
     background-color: white;
     font-family: monospace;
     background: none;
+    font-size: 1.5rem;
 }
 
 .choices {
@@ -57,7 +53,7 @@ p {
 .results {
     text-align: center;
     background-color: white;
-    height: 30vh;
+    height: 100vh;
     font-family: monospace;
 }
 
